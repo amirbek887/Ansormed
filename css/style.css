@@ -127,6 +127,16 @@ text-decoration: 0;
   background-color: rgba(224, 46, 84, 0.6);
   opacity: 1;
 }
+.main-link-outline {
+  background-color: transparent;
+  color: #fff;
+  border-color: #fff;
+}
+.main-link-outline:hover {
+  background-color: #de2e54;
+  color: #fff;
+  border-color: transparent;
+}
       /* HERO */
 .hero {
   background-color: #0EB4C1;
@@ -213,6 +223,30 @@ width: 600px;
   display: flex;
   justify-content: center;
 }
+      /* cta */
+.cta {
+  background-color: #0EB4C1;
+  color: #fff;
+  text-align: center;
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+.cta-heading {
+  text-align: center;
+  font-size: 36px;
+  line-height: 120%;
+  margin-top: 0;
+  margin-bottom: 40px;
+}
+.cta-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cta-links-item:not(:last-child) {
+  margin-right: 40px;
+}
+
         /* FOOTER */
 .site-footer {
   padding-top: 24px;
